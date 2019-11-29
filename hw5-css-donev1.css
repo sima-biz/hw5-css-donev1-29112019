@@ -1,0 +1,146 @@
+body {
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+  background-color: rgb(58, 159, 159); 
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#login-form {
+  display: flex;
+  height: 336px;
+  width: 727px;
+  background-color: rgb(255, 255, 255);
+  margin: 15% auto;  
+}
+
+#article {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  flex-basis: 60px;
+}
+
+#article p {
+  
+  color: #6a737c;
+  font-size: 21px;
+  margin: 10px 2px;
+}
+
+#article svg {
+  fill: #8e9398;
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 667px;
+}
+
+#div1 p {
+  flex-basis: 15px;
+  color: #6a737c;
+  font-size: 15px;
+  margin: 0px 0px 17px 0px;  
+}
+
+#div2 {
+  flex-basis: 115px;
+  color: #6a737c;
+  background-color: #eff0f1;
+  font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+  font-size: 13px;
+}
+
+.colortext1 {
+  color: #101094;
+}
+
+.colortext2 {
+  color: #7D2727;
+}
+
+a {
+  color: #3a61d8;
+}
+
+#div3 {
+  flex-basis: 92px;
+  display: flex;
+  color: #6a737c;
+}
+
+#sidebar1-2 {
+  flex-grow: 2;
+  font-size: 13px;
+}
+
+#sidebar2-3 {
+  flex-grow: 1;
+  font-size: 12px;  
+}
+
+#sidebar3-3 {
+  flex-grow: 1;
+  font-size: 13px;
+}
+
+#div4 {
+  flex-basis: 70px;
+  display: flex;
+  flex-direction: column;
+  color: #6a737c;
+  font-size: 13px;
+}
+
+#hr1{
+  height: 0px;
+  width: 663px;
+  margin: 3px 0px 0px 0px;
+  background: #6a737c;
+}
+
+.pseudo-element::first-letter {
+  color: #6a737c;
+  font-size: 15px;
+  display: block;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.pseudo-element {
+  margin: 2px 0px 0px 0px;  
+}
+
+#div5 p { 
+  flex-basis: 25px;
+  color: #6a737c;
+  font-size: 13px; 
+  margin: -3px 0px 0px 0px;  
+}
+
+.a-comment::before {
+  content: " ";
+  display: block;
+  width: 99.6%;
+  height: 2px;
+  background: #adb0b3;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.a-comment::after {
+  content: " ";
+  display: block;
+  width: 723px;
+  height: 2px;
+  background: #adb0b3;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin: 1px 0px 0px -57px;  
+}
+
+
+
