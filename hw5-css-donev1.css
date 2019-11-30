@@ -1,8 +1,10 @@
 body {
   font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
   background-color: rgb(58, 159, 159); 
-  height: 100%;
   display: flex;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
   justify-content: center;
   align-items: center;  
 }
@@ -12,7 +14,6 @@ body {
   height: 336px;
   width: 727px;
   background-color: rgb(255, 255, 255);
-  margin: 50% auto;
 }
 
 #article {
